@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import ps from "./ps-logo.jpg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -29,7 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import bootstrap from './tech/bootstrap.png'
+import bootstrap from "./tech/bootstrap.png";
+import cryptoTracker from "./CryptoTracker.jpg";
+import airBnbClone from "./airBnbClone.jpg"
 
 export {
   logo,
@@ -61,4 +63,7 @@ export {
   jobit,
   tripguide,
   bootstrap,
+  ps,
+  cryptoTracker,
+  airBnbClone ,
 };

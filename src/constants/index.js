@@ -13,14 +13,13 @@ import {
   nodejs,
   mongodb,
   git,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   bootstrap,
+  ps,
+  cryptoTracker,
+  airBnbClone,
 } from "../assets";
 
 export const navLinks = [
@@ -44,7 +43,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Open Source Contributer",
     icon: mobile,
   },
   {
@@ -102,60 +101,20 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Paradise Moms",
+    icon: ps,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2024 - currently working",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborated with a senior developer with over 5 years of experience, gaining valuable mentorship and insight.",
+      "Interacted directly with clients to gather requirements and feedback, ensuring their needs were met effectively.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed the entire application from scratch, utilizing a modern frontend hybrid architecture that supports both client-side rendering (CSR) and server-side rendering (SSR), and gained experience with backend technologies like Nest.js.",
     ],
   },
 ];
@@ -164,92 +123,67 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    name: "Ritu Singh",
+    designation: "Founder",
+    company: "Paradise moms",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Aditya Kumar",
+    designation: "SDE",
+    company: "Proximity",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crypto Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A real-time tracking tool for various cryptocurrencies, offering detailed analysis of market cap, price, and volume. Users can compare different cryptocurrencies and maintain a customizable watchlist for easy monitoring.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+
+      {
+        name: "Chart.js",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cryptoTracker,
+    source_code_link: "https://github.com/Ankur-Kumar-4/cryptoTracker",
+    deploy_link: "https://cryptotracker-ankur.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Air bnb clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive application that allows users to search for hotels based on location, check-in and check-out dates, and the number of guests. This clone provides a seamless experience for viewing available accommodations in the desired area.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: airBnbClone,
+    source_code_link: "https://github.com/Ankur-Kumar-4/Airbndb_clone",
+    deploy_link: "https://ankur-kumar-4.github.io/Airbndb_clone/",
   },
 ];
 
