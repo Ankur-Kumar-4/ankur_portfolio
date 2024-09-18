@@ -25,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary px-4 py-5 md:w-[360px] w-[86vw] rounded-2xl "
       >
         <div
           onClick={() => window.open(deploy_link, "_blank")}
