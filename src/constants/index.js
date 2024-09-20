@@ -13,13 +13,13 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
-  jobit,
-  tripguide,
   bootstrap,
   ps,
   cryptoTracker,
   airBnbClone,
+  threejs,
+  nextjs,
+  groomingBrothers,
 } from "../assets";
 
 export const navLinks = [
@@ -101,20 +101,38 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
 ];
 
 const experiences = [
+  // {
+  //   title: "Web Developer (internship)",
+  //   company_name: "Grooming Brothers",
+  //   icon: groomingBrothers,
+  //   iconBg: "#383E56",
+  //   date: "july 2024 - september 2024",
+  //   points: [
+  //     "Managed and maintained the e-commerce site codebase, ensuring 99.9% uptime and optimal site performance.",
+  //     "Enhanced user experience by optimizing existing features and developing new functionalities that led to a 15% increase in user engagement.",
+  //   ],
+  // },
   {
     title: "Full Stack Developer",
     company_name: "Paradise Moms",
     icon: ps,
     iconBg: "#383E56",
-    date: "January 2024 - currently working",
+    date: "January 2024 - july 2024",
     points: [
-      "Collaborated with a senior developer with over 5 years of experience, gaining valuable mentorship and insight.",
-      "Interacted directly with clients to gather requirements and feedback, ensuring their needs were met effectively.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Designed the entire application from scratch, utilizing a modern frontend hybrid architecture that supports both client-side rendering (CSR) and server-side rendering (SSR), and gained experience with backend technologies like Nest.js.",
+      "Partnered with a senior developer (5+ years experience) to gain valuable mentorship and deep insights into best practices and advanced development techniques.",
+      "Engaged directly with clients to gather requirements and feedback, ensuring 100% alignment with their needs and improving overall client satisfaction",
+      "Architected a full-scale application from scratch using a modern frontend hybrid architecture (CSR + SSR), and gained hands-on experience with backend technologies like Nest.js, contributing to a seamless user experience.",
     ],
   },
 ];

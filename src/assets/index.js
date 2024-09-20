@@ -21,17 +21,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import groomingBrothers from "./grooming_brothers_logo.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bootstrap from "./tech/bootstrap.png";
 import cryptoTracker from "./CryptoTracker.jpg";
-import airBnbClone from "./airBnbClone.jpg"
+import airBnbClone from "./airBnbClone.jpg";
+import nextjs from "./tech/nextjs.png";
 
 export {
   logo,
@@ -55,15 +53,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   bootstrap,
   ps,
   cryptoTracker,
-  airBnbClone ,
+  airBnbClone,
+  nextjs,
+  groomingBrothers,
 };
